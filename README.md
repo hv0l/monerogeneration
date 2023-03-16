@@ -15,16 +15,15 @@ Usage
     Save the script to a file, e.g., create_subaddresses.sh.
     Make the script executable with the following command:
 
-bash
+```
 
 chmod +x create_subaddresses.sh
-
-    Run the script:
-
-bash
+```
+   ` Run the script:`
+```
 
 ./create_subaddresses.sh
-
+```
     The script will prompt you to enter the path to Monero CLI (monero-wallet-cli) and your wallet file.
     The script will create 20 new subaddresses by opening your wallet and executing the address new command.
 
